@@ -1,0 +1,39 @@
+header{
+    background-color: rgb(8, 254, 252);
+    font-size: 1.2em;
+    padding-bottom: 30px;
+}
+nav{
+    background-color: rgb(249, 73, 52);
+    font-size: 1.2em;
+    padding-bottom: 30px;
+    
+}
+article{
+    background-color: yellow;
+}
+.articulo-fondo{
+    background-color: rgb(225, 184, 0);
+}
+footer{
+    background-color: turquoise;
+}
+aside{
+    background-color: seagreen;
+}
+#seccion-amarilla{
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+}
+h4{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+footer{
+padding-bottom: 30px;
+}
