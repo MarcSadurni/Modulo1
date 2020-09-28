@@ -2,27 +2,33 @@ header{
     background-color: rgb(8, 254, 252);
     font-size: 1.2em;
     padding-bottom: 30px;
+    font-size: 2em;
+    font-weight: bold;
+}
+body{
+    margin-left: 40px;
 }
 nav{
     background-color: rgb(249, 73, 52);
     font-size: 1.2em;
     padding-bottom: 30px;
-    
+    font-weight: bold;
+    font-size: 1.5em;
 }
 article{
     background-color: yellow;
 }
 .articulo-fondo{
     background-color: rgb(225, 184, 0);
+    margin: 20px;
+    line-height: 1px;
+    padding-right: 300px;
 }
 footer{
     background-color: turquoise;
 }
-aside{
-    background-color: seagreen;
-}
-#seccion-amarilla{
-    
+
+#seccion-amarilla{ 
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -36,4 +42,8 @@ h4{
 }
 footer{
 padding-bottom: 30px;
+}
+aside{
+    font-size: 1.5em;
+    font-weight: bold;
 }
